@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, FormGroup, Label } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
+import "./Get in touch.css"
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
@@ -78,23 +79,8 @@ class GetInTouch extends Component {
                 ref={(el) => (this.myFormRef = el)}
                 onSubmit={(e) => this.handleSubmit(e)}
               >
-                <Row>
-                  <Col md="4">
-                    <FormGroup>
-                      <Label for="name">Name</Label>
-                      <AvField
-                        name="firstname"
-                        placeholder="Your name..."
-                        type="text"
-                        errorMessage="Enter First Name"
-                        className="form-control"
-                        validate={{ required: { value: true } }}
-                        id="validationCustom01"
-                        onChange={(e) => this.onInputChangeHandlar(e)}
-                      />
-                    </FormGroup>
-                  </Col>
-                  <Col md="4">
+                <Row className="Get-in-touch">
+                  <Col md="6">
                     <FormGroup>
                       <Label for="email">Email address</Label>
                       <AvField
@@ -111,24 +97,8 @@ class GetInTouch extends Component {
                       />
                     </FormGroup>
                   </Col>
-                  <Col md="4">
-                    <FormGroup>
-                      <Label for="subject">Subject</Label>
-                      <AvField
-                        name="subject"
-                        placeholder="Your Subject.."
-                        type="text"
-                        errorMessage="Enter Subject Name"
-                        className="form-control"
-                        validate={{ required: { value: true } }}
-                        id="validationCustom01"
-                        onChange={(e) => this.onInputChangeHandlar(e)}
-                      />
-                    </FormGroup>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col md="12">
+                  
+                  <Col md="6">
                     <FormGroup>
                       <Label for="comments">Message</Label>
                       <AvField
@@ -145,8 +115,11 @@ class GetInTouch extends Component {
                     </FormGroup>
                   </Col>
                 </Row>
+
+                
                 <Row>
-                  <Col sm="12" className="text-right">
+                  <div className="btn-center">
+                  <Col sm="12" >
                     <input
                       type="submit"
                       id="submit"
@@ -156,6 +129,7 @@ class GetInTouch extends Component {
                     />
                     <div id="simple-msg"></div>
                   </Col>
+                  </div>
                 </Row>
               </AvForm>
             </div>

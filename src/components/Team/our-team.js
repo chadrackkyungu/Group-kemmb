@@ -16,32 +16,30 @@ import team4 from "../../assets/images/team/team-4.png";
 class OurTeam extends Component {
     state = {
         members : [
-            { id : 1, name : "SAMMIE R. PROVENCAL", image : team1, post : "CEO/Founder",
+            { id : 1, name : "Jean Charles B. Kashama", image : team1, post : "Operation Director",
+                socials : [
+                    { class : "mdi mdi-instagram", link : "#" },
+                ]
+            },
+            { id : 2, name : "Kyungu Chadrack", image : team2, post : "Web Developper",
                 socials : [
                     { class : "mdi mdi-facebook", link : "#" },
-                    { class : "mdi mdi-google", link : "#" },
+                    { class : "mdi mdi-instagram", link : "#" },
                     { class : "mdi mdi-twitter", link : "#" },
                 ]
             },
-            { id : 2, name : "EDITH E. WHEELER", image : team2, post : "CTO/Co-Founder",
+            { id : 3, name : "Kaba Mechack", image : team3, post : "Financial Director",
                 socials : [
                     { class : "mdi mdi-facebook", link : "#" },
-                    { class : "mdi mdi-google", link : "#" },
+                    { class : "mdi mdi-instagram", link : "#" },
                     { class : "mdi mdi-twitter", link : "#" },
                 ]
             },
-            { id : 3, name : "PAULINE T. ROACH", image : team3, post : "Web Designer",
+            { id : 4, name : "Kimubulu Esino", image : team4, post : "Marketing Director",
                 socials : [
                     { class : "mdi mdi-facebook", link : "#" },
-                    { class : "mdi mdi-google", link : "#" },
-                    { class : "mdi mdi-twitter", link : "#" },
-                ]
-            },
-            { id : 4, name : "DONALD M. LAUGHLIN", image : team4, post : "Web Developer",
-                socials : [
-                    { class : "mdi mdi-facebook", link : "#" },
-                    { class : "mdi mdi-google", link : "#" },
-                    { class : "mdi mdi-twitter", link : "#" },
+                    { class : "mdi mdi-instagram", link : "#" },
+                    { class : "mdi mdi-whatsapp", link : "#" },
                 ]
             },
         ]
