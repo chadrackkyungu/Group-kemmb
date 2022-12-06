@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+import logolight from "../../assets/images/log.png";
+import logodark from "../../assets/images/log.png";
 
 class NavbarPage extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class NavbarPage extends Component {
     this.state = {
       navItems: [
         { id: 1, idnm: "home", navheading: "Home" },
-        { id: 2, idnm: "features", navheading: "Features" },
+        { id: 2, idnm: "about", navheading: "About" },
         { id: 3, idnm: "service", navheading: "Services" },
         { id: 4, idnm: "client", navheading: "Client" },
         { id: 5, idnm: "team", navheading: "Team" },
@@ -52,14 +52,14 @@ class NavbarPage extends Component {
                     src={logolight}
                     alt=""
                     className="logo-light"
-                    height="24"
+                    height="50"
                   />
                 ) : (
                   <img
                     src={logodark}
                     alt=""
                     className="logo-dark"
-                    height="24"
+                    height="50"
                   />
                 )}
               </Link>

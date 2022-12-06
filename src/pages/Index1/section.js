@@ -31,8 +31,8 @@ class Section extends Component {
                             <Container>
                                 <Row className="row justify-content-center">
                                     <Col lg="10" className="text-center">
-                                        <h6 className="home-title text-white">We help startups launch their products with awesome website</h6>
-                                        <p className="pt-4 home-sub-title text-white mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h6 className="home-title text-white">The only way to do great work is to love what you do</h6>
+                                        <p className="pt-4 home-sub-title text-white mx-auto">Group Kemmb Services is open platform company that provides different type of services in order to bring their stone in the construction of a better tomorrow for everyone</p>
                                         <div className="watch-video pt-4">
                                             <Link to="#" onClick={this.callModal} className="video-play-icon text-white"><i className="mdi mdi-play play-icon-circle play play-iconbar"></i> <span>Watch The Video!</span></Link>
                                         </div>
