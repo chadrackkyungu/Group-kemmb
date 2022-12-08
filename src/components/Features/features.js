@@ -31,8 +31,8 @@ class Features extends Component {
               <Col lg="6" className="mt-2 text-center">
                 <FeatureBox
                   class="text-lg-left"
-                  title="INTRODUCTION TO GROUP KEMMB INVESTMENT SERVICES"
-                  desc="GROUP KEMMB INVESTMENT SERVICES is a company that bridges the gaps between investors in 
+                  title="Introduction to Group Maka Investment Services"
+                  desc="GROUP MAKA INVESTMENT SERVICES is a company that bridges the gaps between investors in 
                   the world and the Democratic republic of Congo with focus in Agriculture, Construction, mining, 
                   transport, Water and sanitation."
                   link="#"

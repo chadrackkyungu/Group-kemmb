@@ -365,6 +365,9 @@ span.title-border {
   height: 100vh;
   background-color: #000;
 }
+.play-iconbar, .watch-video{
+  display: none;
+}
 /*---------DEMO 11--------*/
 .navbar-light.small {
   top: 0px !important;
@@ -459,7 +462,16 @@ span.title-border {
 /*==========================
         SERVICES
 ============================*/
-
+.service-box{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px dotted #dddddd;
+  border-radius: 3px;
+}
+/*
 .service-box {
   border: 1px dotted #dddddd;
   border-radius: 3px;
@@ -469,7 +481,22 @@ span.title-border {
 .service-left {
   float: left;
 }
-
+*/
+.service-box .service-icon {
+  font-size: 35px;
+  margin-bottom: 6px;
+  color: #2948ff;
+}
+.icon-container{
+  background: #ececff;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
 .service-box .service-icon {
   font-size: 40px;
   position: absolute;
@@ -480,9 +507,9 @@ span.title-border {
 .service-box .service-desc {
   margin-left: 25%;
 }
-
+*/
 .service-box .service-desc h4 {
-  font-size: 18px;
+  font-size: 27px;
   font-weight: 600;
 }
 
@@ -700,7 +727,6 @@ textarea.form-control {
     margin-left: 0%;
   }
   .service-box .service-icon {
-    top: -15px;
     position: relative;
     transform: none;
     left: 0;

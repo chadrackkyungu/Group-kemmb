@@ -31,10 +31,13 @@ class Section extends Component {
                             <Col lg="8" className="text-left mt-3">
                                 <h6 className="home-title text-white">Create amazing landing page with linexon landing template</h6>
                                 <p className="pt-4 home-sub-title text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation.</p>
+                           {/* 
                                 <div className="watch-video pt-4">
                                     <Link onClick={this.callModal} to="#" className="video-play-icon text-white"><i className="mdi mdi-play play-icon-circle play play-iconbar"></i> <span>Watch The Video!</span></Link>
                                 </div>
+                             */}   
                             </Col>
+                          
                             <Col lg="4" className="mt-3">
                                 <div className="home-registration-form bg-white p-5">
                                     <h4 className="form-title mb-4">Get 30 day FREE Trial</h4>
