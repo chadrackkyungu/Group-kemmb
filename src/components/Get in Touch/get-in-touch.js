@@ -80,6 +80,24 @@ class GetInTouch extends Component {
                 onSubmit={(e) => this.handleSubmit(e)}
               >
                 <Row className="Get-in-touch">
+                <Col md="6">
+                    <FormGroup>
+                      <Label for="email">Phone number</Label>
+                      <AvField
+                        name="email"
+                        placeholder="Phone number..."
+                        type="email"
+                        errorMessage="Enter Valid Email Adress"
+                        className="form-control"
+                        validate={{
+                          required: { value: true },
+                          email: { value: true },
+                        }}
+                        onChange={(e) => this.onInputChangeHandlar(e)}
+                      />
+                    </FormGroup>
+                  </Col>
+                  
                   <Col md="6">
                     <FormGroup>
                       <Label for="email">Email address</Label>

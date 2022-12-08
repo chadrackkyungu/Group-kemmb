@@ -13,9 +13,7 @@ class Footer extends Component {
                     { linkTitle : "Home", link : "#" },
                     { linkTitle : "Features", link : "#" },
                     { linkTitle : "Services", link : "#" },
-                    { linkTitle : "Client", link : "#" },
                     { linkTitle : "Team", link : "#" },
-                    { linkTitle : "Pricing", link : "#" },
                     { linkTitle : "Contact", link : "#" },
                 ]
             },

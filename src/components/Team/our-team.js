@@ -16,26 +16,26 @@ import team4 from "../../assets/images/team/team-4.png";
 class OurTeam extends Component {
     state = {
         members : [
-            { id : 1, name : "Jean Charles B. Kashama", image : team1, post : "Operation Director",
+            { id : 1, name : "Kimubulu Esino", image : team1, post : "Operation Director",
                 socials : [
                     { class : "mdi mdi-instagram", link : "#" },
                 ]
             },
-            { id : 2, name : "Kyungu Chadrack", image : team2, post : "Web Developper",
-                socials : [
-                    { class : "mdi mdi-facebook", link : "#" },
-                    { class : "mdi mdi-instagram", link : "#" },
-                    { class : "mdi mdi-twitter", link : "#" },
-                ]
-            },
-            { id : 3, name : "Kaba Mechack", image : team3, post : "Financial Director",
+            { id : 2, name : "Jean Charles B. Kashama", image : team2, post : "Marketing Director",
                 socials : [
                     { class : "mdi mdi-facebook", link : "#" },
                     { class : "mdi mdi-instagram", link : "#" },
                     { class : "mdi mdi-twitter", link : "#" },
                 ]
             },
-            { id : 4, name : "Kimubulu Esino", image : team4, post : "Marketing Director",
+            { id : 3, name : "Kyungu Chadrack", image : team3, post : "Web developer",
+                socials : [
+                    { class : "mdi mdi-facebook", link : "#" },
+                    { class : "mdi mdi-instagram", link : "#" },
+                    { class : "mdi mdi-twitter", link : "#" },
+                ]
+            },
+            { id : 4, name : "Kaba Mechack", image : team4, post : "Marketing Director",
                 socials : [
                     { class : "mdi mdi-facebook", link : "#" },
                     { class : "mdi mdi-instagram", link : "#" },
