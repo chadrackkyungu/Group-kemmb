@@ -43,7 +43,10 @@ class Index1 extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavbarPage navclass={this.state.navClass} imglight={this.state.imglight} />
+        <NavbarPage
+          navclass={this.state.navClass}
+          imglight={this.state.imglight}
+        />
         <Section />
         <Features />
         <GetStarted />
