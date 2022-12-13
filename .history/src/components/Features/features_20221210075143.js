@@ -34,11 +34,11 @@ class Features extends Component {
                   title="Introduction to Group Maka Investment Services"
                   desc="GROUP MAKA INVESTMENT SERVICES is a company that bridges the gaps between investors in 
                   the world and the Democratic republic of Congo with focus in Agriculture, Construction, mining, 
-                  transportation & Logistics, Water and sanitation, IT Infrastructure, Securities & Cleaning, Logistics, Casting and Chemical Manifacture"
+                  transport, Water and sanitation."
                   link="#"
                 />
               </Col>
-
+             
             </Row>
             <Row className="feature-container pb-5 mt-5 vertical-content">
               <Col lg="6" className=" feature__content mt-2">
@@ -90,7 +90,7 @@ class Features extends Component {
               <Col lg="6" className="mt-2">
                 <div className="feat mb-5 mb-lg-0 ">
                   <img
-                    src={img4}
+                    src={img4} 
                     alt=""
                     className="img-fluid mx-auto d-block"
                   />

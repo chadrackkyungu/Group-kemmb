@@ -7,7 +7,7 @@ import { GiTowTruck } from "react-icons/gi";
 import { FaBusAlt } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
 import { GiWaterTank } from "react-icons/gi";
-import { SiSpringsecurity, SiWikimediacommons } from "react-icons/si";
+import { SiSpringsecurity } from "react-icons/si";
 import { TbTruckLoading } from "react-icons/tb";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 
@@ -33,7 +33,7 @@ class Services extends Component {
         ],
         services2: [
             { title: "Securities & Cleaning", icon: SiSpringsecurity, description: "Private investment is essential if agriculture is to fulfil its vital function of contributing to economic development, poverty reduction and food security" },
-            { title: "Casting", icon: SiWikimediacommons, description: " We provide constant liaison between the client and the actors, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
+            { title: "Casting", icon: TbTruckLoading, description: " Investments in agricultural logistics create global businesses and enhance trading between nations. Of course, with good management practices." },
             { title: "Chemical Manifacture", icon: MdOutlinePrecisionManufacturing, description: "Manufacturers of pesticides supplying to over 1,500 farmers seek investment,Investors can choose among companies providing agricultural products and services." },
         ],
 

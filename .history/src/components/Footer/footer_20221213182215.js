@@ -46,7 +46,7 @@ class Footer extends Component {
                                 <p className="text-uppercase footer-title">Contact Us</p>
                                 <div className="contact-us">
                                     <p>info@groupMaka.com</p>
-                                    <p> CALL AND WHATSAPP 061 983 6863 , 060 477 8441</p>
+                                    <p> CALL AND WHATSAPP 061 983 6863 , 0604778441</p>
                                     <p> </p>
                                     <p>GROUP  MAKA  INVESTMENT SERVICES (PTY)LTD.
                                         REG NO.2022/274851/07</p>

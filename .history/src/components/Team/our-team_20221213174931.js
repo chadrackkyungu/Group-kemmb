@@ -25,9 +25,9 @@ class OurTeam extends Component {
             {
                 id: 2, name: "Jean Charles B. Kashama", image: team2, post: "Executive Director",
                 socials: [
-                    { class: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=100004476735888" },
-                    { class: "mdi mdi-instagram", link: "https://www.instagram.com/cbnkashama/" },
-                    // { class: "mdi mdi-twitter", link: "#" },
+                    { class: "mdi mdi-facebook", link: "#" },
+                    { class: "mdi mdi-instagram", link: "#" },
+                    { class: "mdi mdi-twitter", link: "#" },
                 ]
             },
             {

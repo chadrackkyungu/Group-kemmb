@@ -27,7 +27,7 @@ class OurTeam extends Component {
                 socials: [
                     { class: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=100004476735888" },
                     { class: "mdi mdi-instagram", link: "https://www.instagram.com/cbnkashama/" },
-                    // { class: "mdi mdi-twitter", link: "#" },
+                    { class: "mdi mdi-twitter", link: "#" },
                 ]
             },
             {

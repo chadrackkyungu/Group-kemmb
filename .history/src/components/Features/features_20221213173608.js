@@ -34,7 +34,7 @@ class Features extends Component {
                   title="Introduction to Group Maka Investment Services"
                   desc="GROUP MAKA INVESTMENT SERVICES is a company that bridges the gaps between investors in 
                   the world and the Democratic republic of Congo with focus in Agriculture, Construction, mining, 
-                  transportation & Logistics, Water and sanitation, IT Infrastructure, Securities & Cleaning, Logistics, Casting and Chemical Manifacture"
+                  transportation & Logistics, Water and sanitation, IT Infrastructure, Securities, Logistics and Chemical Manifacture"
                   link="#"
                 />
               </Col>

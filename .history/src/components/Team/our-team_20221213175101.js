@@ -25,17 +25,17 @@ class OurTeam extends Component {
             {
                 id: 2, name: "Jean Charles B. Kashama", image: team2, post: "Executive Director",
                 socials: [
-                    { class: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=100004476735888" },
-                    { class: "mdi mdi-instagram", link: "https://www.instagram.com/cbnkashama/" },
-                    // { class: "mdi mdi-twitter", link: "#" },
+                    { class: "mdi mdi-facebook", link: "#" },
+                    { class: "mdi mdi-instagram", link: "#" },
+                    { class: "mdi mdi-twitter", link: "#" },
                 ]
             },
             {
                 id: 3, name: "Kyungu Chadrack", image: team3, post: "Full-Stack JavaScript Engineer",
                 socials: [
-                    { class: "mdi mdi-facebook", link: "https://www.facebook.com/chadrack.kyungu.7" },
-                    { class: "mdi mdi-instagram", link: "https://www.instagram.com/chadrack_code/" },
-                    { class: "mdi mdi-twitter", link: "https://twitter.com/chadrack_code" },
+                    { class: "mdi mdi-facebook", link: "www.facebook.com/chadrack.kyungu.7" },
+                    { class: "mdi mdi-instagram", link: "www.instagram.com/chadrack_code/" },
+                    { class: "mdi mdi-twitter", link: "twitter.com/chadrack_code" },
                 ]
             },
             {

@@ -42,15 +42,14 @@ class Footer extends Component {
                                 )
                             }
 
-                            <Col lg="6">
+                            <Col lg="3">
                                 <p className="text-uppercase footer-title">Contact Us</p>
                                 <div className="contact-us">
                                     <p>info@groupMaka.com</p>
-                                    <p> CALL AND WHATSAPP 061 983 6863 , 060 477 8441</p>
-                                    <p> </p>
+                                    <p> CALL AND WHATSAPP</p>
+                                    <p> 061 983 6863</p>
                                     <p>GROUP  MAKA  INVESTMENT SERVICES (PTY)LTD.
                                         REG NO.2022/274851/07</p>
-                                    <p>No.3 Mellbourne road, Betrams, Johnannesburg, Gauteng, South africa</p>
                                 </div>
                                 {/* <ul className="footer-icons list-inline mt-4">
                                     <li className="list-inline-item"><Link to="#" className=""><i className="mdi mdi-facebook"></i></Link></li>
