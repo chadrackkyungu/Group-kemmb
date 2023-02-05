@@ -22,7 +22,7 @@ class Services extends Component {
 
     state = {
         services: [
-            { title: "Mining", icon: GiMiner, description: "We global demand for food, the goal of agriculture and food security is to support innovation for future   ancient and sustainable agriculture production." },
+            // { title: "Mining", icon: GiMiner, description: "We global demand for food, the goal of agriculture and food security is to support innovation for future   ancient and sustainable agriculture production." },
             { title: "Agriculture", icon: GiFoodTruck, description: "With global demand for food, the goal of agriculture and food security is to support innovation for future ecient and sustainable agricultural production " },
             { title: "Construction (Mining)", icon: GiTowTruck, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
         ],
@@ -32,9 +32,9 @@ class Services extends Component {
             { title: " Water and sanitation", icon: GiWaterTank, description: "Palm Tree Investment Services is committed to addressing the ongoing challenges associated with the lack of clean water, sanitation and good hygiene." },
         ],
         services2: [
-            { title: "Securities & Cleaning", icon: SiSpringsecurity, description: "As companies primarily engaged in providing guard and patrol services, such as bodyguard,   guard services. Many of them will even provide advanced special operation services if the client  demands it.  Cleaning: Disinfects and maintain the premises of private households or commercial buildings  and public areas. " },
-            { title: "Casting", icon: SiWikimediacommons, description: "We provide constant liaison between the client and the actors or extras, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
-            { title: "Chemical Manifacture", icon: MdOutlinePrecisionManufacturing, description: "Manufactures of pesticides, cleaning detergent and spirit supplying to over 1500 farmers seek  investment or a community ( investors agriculture products and services)." },
+            { title: "Securities & Cleaning", icon: SiSpringsecurity, description: "Private investment is essential if agriculture is to fulfil its vital function of contributing to economic development, poverty reduction and food security" },
+            { title: "Casting", icon: SiWikimediacommons, description: " We provide constant liaison between the client and the actors, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
+            { title: "Chemical Manifacture", icon: MdOutlinePrecisionManufacturing, description: "Manufacturers of pesticides supplying to over 1,500 farmers seek investment,Investors can choose among companies providing agricultural products and services." },
         ],
 
     }

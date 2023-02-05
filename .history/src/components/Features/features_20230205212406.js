@@ -34,7 +34,17 @@ class Features extends Component {
                   title="Introduction to Palm tree Investment Services"
                   desc="PT Investment services is a company that bridges the goals between investors in the world at the DRC 
                   with focus in 
-                  Agriculture , construction (mining) , IT infrastructure, Water and Sanitation We supply services as Chemical manufacture,Cleaning and waste ,Casting (actors and extras),IT Developer,Public transportation , Securities Services
+                  -Agriculture 
+                  -construction (mining) 
+                  -IT infrastructure 
+                  -Water and Sanitation
+                  We supply services as 
+                  -Chemical manufacture 
+                  -Cleaning and waste 
+                  -Casting (actors and extras) 
+                  -IT Developer 
+                  -Public transportation 
+                  -Securities Services
                   "
                   // desc="Palm tree investment services is a company that bridges the gaps between investors in 
                   // the world and the Democratic republic of Congo with focus in Agriculture, Construction, mining, 
@@ -57,10 +67,13 @@ class Features extends Component {
               <Col lg="6" className="mt-2">
                 <FeatureBox
                   class="text-center text-lg-left "
-                  title="Our Vision"
-                  desc="Our goal is to contribute to economic growth in Africa and particularly in the Democratic Republic of the 
-                  Congo and the prosperity of its people. We will achieve this by increasing investors opportunities and 
-                  employment strengthening rural development and alleviating poverty"
+                  title="Our Vision "
+                  desc="Our goal is to contribute to economic growth in the 
+                  democratic republic of Congo and the prosperity of its 
+                  people 
+                  We will achieve this by increasing investors opportunities 
+                  and employment strengthening rural development and 
+                  alleviating poverty"
                   link="#"
                 />
               </Col>
@@ -79,8 +92,10 @@ class Features extends Component {
                 <FeatureBox
                   class="text-lg-left"
                   title="Our Value"
-                  desc="Our value are the heart of our business. Every decision we make and action we take is aligned the core 
-                  philosophies. It’s what makes us unique and capable of achieving great things."
+                  desc="Our values are the heart of our business. Every decision we 
+                  make and action we take is aligned to these core 
+                  philosophies. It’s what makes us unique and capable of 
+                  achieving great things"
                   link="#"
                 />
               </Col>
@@ -99,10 +114,9 @@ class Features extends Component {
                 <FeatureBox
                   class="text-center text-lg-left"
                   title="Our Value"
-                  desc="Africa is a big landscape founded on relationship and connections. This means getting to know our 
-                  partners and finding out how we can work together to achieve our mutual goal. We care about others
-                  and the impact our action have on our stakeholders. It’s not just about what we do, it’s the spirit in 
-                  which we do it"
+                  desc="Africa is a business landscape founded on relationships and connections. This means getting to know our 
+                  partners and finding out how we can work together to achieve our mutual goals. We care about others and the 
+                  impact our actions have on our stakeholders. It’s not just about what we do, it’s the spirit in which we do it"
                   link="#"
                 />
               </Col>

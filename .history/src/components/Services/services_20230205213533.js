@@ -22,7 +22,7 @@ class Services extends Component {
 
     state = {
         services: [
-            { title: "Mining", icon: GiMiner, description: "We global demand for food, the goal of agriculture and food security is to support innovation for future   ancient and sustainable agriculture production." },
+            // { title: "Mining", icon: GiMiner, description: "We global demand for food, the goal of agriculture and food security is to support innovation for future   ancient and sustainable agriculture production." },
             { title: "Agriculture", icon: GiFoodTruck, description: "With global demand for food, the goal of agriculture and food security is to support innovation for future ecient and sustainable agricultural production " },
             { title: "Construction (Mining)", icon: GiTowTruck, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
         ],

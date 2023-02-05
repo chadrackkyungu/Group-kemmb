@@ -79,8 +79,10 @@ class Features extends Component {
                 <FeatureBox
                   class="text-lg-left"
                   title="Our Value"
-                  desc="Our value are the heart of our business. Every decision we make and action we take is aligned the core 
-                  philosophies. It’s what makes us unique and capable of achieving great things."
+                  desc="Our values are the heart of our business. Every decision we 
+                  make and action we take is aligned to these core 
+                  philosophies. It’s what makes us unique and capable of 
+                  achieving great things"
                   link="#"
                 />
               </Col>
@@ -99,10 +101,9 @@ class Features extends Component {
                 <FeatureBox
                   class="text-center text-lg-left"
                   title="Our Value"
-                  desc="Africa is a big landscape founded on relationship and connections. This means getting to know our 
-                  partners and finding out how we can work together to achieve our mutual goal. We care about others
-                  and the impact our action have on our stakeholders. It’s not just about what we do, it’s the spirit in 
-                  which we do it"
+                  desc="Africa is a business landscape founded on relationships and connections. This means getting to know our 
+                  partners and finding out how we can work together to achieve our mutual goals. We care about others and the 
+                  impact our actions have on our stakeholders. It’s not just about what we do, it’s the spirit in which we do it"
                   link="#"
                 />
               </Col>

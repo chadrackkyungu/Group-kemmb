@@ -49,7 +49,7 @@ class Footer extends Component {
                                     <p> CALL AND WHATSAPP +27 61 983 6863 </p>
                                     <p> </p>
                                     <p>Palm Tree Investment services (pty) Ltd Reg No 2023/517568/07</p>
-                                    <p>Address: 31 Becker Street Yeoville, Johannesburg, Gauteng, south Africa</p>
+                                    <p>No.3 Mellbourne road, Betrams, Johnannesburg, Gauteng, South africa</p>
                                 </div>
                                 {/* <ul className="footer-icons list-inline mt-4">
                                     <li className="list-inline-item"><Link to="#" className=""><i className="mdi mdi-facebook"></i></Link></li>
