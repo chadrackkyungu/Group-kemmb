@@ -17,19 +17,24 @@ import SectionTitle from "../common/section-title";
 
 //Import Service Box
 import ServiceBox from "./service-box";
+import Agriculture from "../../assets/images/services/agriculture.jpg";
+import chemical from "../../assets/images/services/chemical.jpg";
+import construction from "../../assets/images/services/construction.jpg";
+import it from "../../assets/images/services/it.jpg";
+import transportation from "../../assets/images/services/transportation.jpg";
 
 class Services extends Component {
 
     state = {
         services: [
             // { title: "Mining", icon: GiMiner, description: "We global demand for food, the goal of agriculture and food security is to support innovation for future   ancient and sustainable agriculture production." },
-            { title: "Chemical Manifacture", icon: MdOutlinePrecisionManufacturing, description: "Manufactures of pesticides, cleaning detergent and spirit supplying to over 1500 farmers seek  investment or a community ( investors agriculture products and services)." },
-            { title: "Agriculture", icon: GiFoodTruck, description: "With global demand for food, the goal of agriculture and food security is to support innovation for future ecient and sustainable agricultural production " },
-            { title: "Construction (Mining)", icon: GiTowTruck, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
+            { title: "Chemical Manifacture", icon: chemical, description: "Manufactures of pesticides, cleaning detergent and spirit supplying to over 1500 farmers seek  investment or a community ( investors agriculture products and services)." },
+            { title: "Agriculture", icon: Agriculture, description: "With global demand for food, the goal of agriculture and food security is to support innovation for future ecient and sustainable agricultural production " },
+            { title: "Construction (Mining)", icon: construction, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
         ],
         services1: [
-            { title: "IT Infrastructure & development", icon: FaBusAlt, description: "This area will focus more on supplying information technology accessories and doing maintenance when needed " },
-            { title: "Transportation & logistics", icon: FaDesktop, description: "Palm Tree Investment Services will focus on creating a transformation and sustainable cars, busses, coach and trucks for transportation in Africa." },
+            { title: "IT Infrastructure & development", icon: it, description: "This area will focus more on supplying information technology accessories and doing maintenance when needed " },
+            { title: "Transportation & logistics", icon: transportation, description: "Palm Tree Investment Services will focus on creating a transformation and sustainable cars, busses, coach and trucks for transportation in Africa." },
             { title: " Water and sanitation", icon: GiWaterTank, description: "Palm Tree Investment Services is committed to addressing the ongoing challenges associated with the lack of clean water, sanitation and good hygiene." },
         ],
         services2: [
