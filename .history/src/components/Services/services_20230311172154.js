@@ -62,9 +62,6 @@ class Services extends Component {
                         <Row>
                             <ServiceBox services={this.state.services2} />
                         </Row>
-                        <Row>
-                            <ServiceBox services={this.state.services3} />
-                        </Row>
                     </Container>
                 </section>
             </React.Fragment>

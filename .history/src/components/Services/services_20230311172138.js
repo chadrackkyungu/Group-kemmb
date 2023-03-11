@@ -40,10 +40,12 @@ class Services extends Component {
         services2: [
             { title: "Securities & Cleaning", icon: SiSpringsecurity, description: "As companies primarily engaged in providing security guard, patrol services, riot guard  body guard, Many of them will even provide advanced special operation services if the client  demands it.  Cleaning:clean, Disinfects and maintain the premises of private households or commercial buildings  and public areas. " },
             { title: "Casting", icon: SiWikimediacommons, description: "We provide constant liaison between the client and the actors or extras, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
+
         ],
         services3: [
             { title: " Water and sanitation", icon: GiWaterTank, description: "Palm Tree Investment Services is committed to addressing the ongoing challenges associated with the lack of clean water, sanitation and good hygiene." },
             { title: "Construction (Mining)", icon: construction, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
+
         ],
 
     }
@@ -61,9 +63,6 @@ class Services extends Component {
                         </Row>
                         <Row>
                             <ServiceBox services={this.state.services2} />
-                        </Row>
-                        <Row>
-                            <ServiceBox services={this.state.services3} />
                         </Row>
                     </Container>
                 </section>
