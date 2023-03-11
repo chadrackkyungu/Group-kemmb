@@ -3,6 +3,7 @@ import { Container, Row, Col, FormGroup, Label } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
 import "./Get in touch.css"
+import emailjs from '@emailjs/browser';
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
@@ -36,6 +37,16 @@ class GetInTouch extends Component {
         this.setState({ msgSendSuccess: false });
       }, 5000);
     }
+
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+
+
   };
 
   onInputChangeHandlar = (event) => {
@@ -80,14 +91,14 @@ class GetInTouch extends Component {
                 onSubmit={(e) => this.handleSubmit(e)}
               >
                 <Row className="Get-in-touch">
-                <Col md="6">
+                  <Col md="6">
                     <FormGroup>
                       <Label for="email">Phone number</Label>
                       <AvField
                         name="email"
                         placeholder="Phone number..."
                         type="email"
-                        errorMessage="Enter Valid Email Adress"
+                        errorMessage="Enter valid Email Address"
                         className="form-control"
                         validate={{
                           required: { value: true },
@@ -97,7 +108,7 @@ class GetInTouch extends Component {
                       />
                     </FormGroup>
                   </Col>
-                  
+
                   <Col md="6">
                     <FormGroup>
                       <Label for="email">Email address</Label>
@@ -115,7 +126,7 @@ class GetInTouch extends Component {
                       />
                     </FormGroup>
                   </Col>
-                  
+
                   <Col md="6">
                     <FormGroup>
                       <Label for="comments">Message</Label>
@@ -134,19 +145,19 @@ class GetInTouch extends Component {
                   </Col>
                 </Row>
 
-                
+
                 <Row>
                   <div className="btn-center">
-                  <Col sm="12" >
-                    <input
-                      type="submit"
-                      id="submit"
-                      name="send"
-                      className="submitBnt btn btn-primary btn-custom"
-                      value="Send Message"
-                    />
-                    <div id="simple-msg"></div>
-                  </Col>
+                    <Col sm="12" >
+                      <input
+                        type="submit"
+                        id="submit"
+                        name="send"
+                        className="submitBnt btn btn-primary btn-custom"
+                        value="Send Message"
+                      />
+                      <div id="simple-msg"></div>
+                    </Col>
                   </div>
                 </Row>
               </AvForm>

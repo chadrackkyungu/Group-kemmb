@@ -3,6 +3,7 @@ import { Container, Row, Col, FormGroup, Label } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
 import "./Get in touch.css"
+import emailjs from '@emailjs/browser';
 
 //Import Section Title
 import SectionTitle from "../common/section-title";

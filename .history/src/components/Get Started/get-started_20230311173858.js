@@ -12,8 +12,8 @@ class GetStarted extends Component {
                 Become a part of Palm tree Investment Service today
               </Col>
               <Col md="3" className="mt-3 mb-3 text-md-right">
-                <a href="#home" className="btn btn-outline-custom">
-                  Get Started
+                <a href="#contact" className="btn btn-outline-custom">
+                  Get in touch
                 </a>
               </Col>
             </Row>

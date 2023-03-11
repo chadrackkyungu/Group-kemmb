@@ -10,19 +10,18 @@ import SectionTitle from "../common/section-title";
 
 function GetInTouch() {
 
-  const form = useRef();
+  // const form = useRef();
 
   const handleValidSubmit = (e, values) => {
     e.preventDefault();
 
     // emailjs.sendForm('gmail', 'template_oixp1mv', form.current, 'YOUR_PUBLIC_KEY')
-    emailjs.sendForm('gmail', 'template_oixp1mv', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('gmail', 'template_oixp1mv', e.current, 'Ip3OFOcttWiXoV_0G')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
-    e.target.reset()
 
   }
 
@@ -35,22 +34,22 @@ function GetInTouch() {
             <AvForm
               name="contact-form"
               id="contact-form"
-              ref={form}
+              // ref={form}
               onValidSubmit={(e, v) => { handleValidSubmit(e, v) }}>
 
               <Row className="Get-in-touch">
                 <Col md="6">
                   <FormGroup>
-                    <Label for="name">Phone number</Label>
+                    <Label for="email">Phone number</Label>
                     <AvField
-                      name="name"
-                      placeholder="Enter your name..."
-                      type="text"
-                      errorMessage="Name is required"
+                      name="email"
+                      placeholder="Phone number..."
+                      type="email"
+                      errorMessage="Enter valid Email Address"
                       className="form-control"
                       validate={{
                         required: { value: true },
-                        name: { value: true },
+                        email: { value: true },
                       }}
                     />
                   </FormGroup>
@@ -75,10 +74,10 @@ function GetInTouch() {
 
                 <Col md="6">
                   <FormGroup>
-                    <Label for="message">Message</Label>
+                    <Label for="comments">Message</Label>
                     <AvField
                       type="textarea"
-                      name="message"
+                      name="comments"
                       id="comments"
                       rows="4"
                       className="form-control"

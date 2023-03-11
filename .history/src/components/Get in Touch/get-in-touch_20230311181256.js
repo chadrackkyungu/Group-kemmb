@@ -50,7 +50,7 @@ function GetInTouch() {
                       className="form-control"
                       validate={{
                         required: { value: true },
-                        name: { value: true },
+                        email: { value: true },
                       }}
                     />
                   </FormGroup>
@@ -75,7 +75,7 @@ function GetInTouch() {
 
                 <Col md="6">
                   <FormGroup>
-                    <Label for="message">Message</Label>
+                    <Label for="comments">Message</Label>
                     <AvField
                       type="textarea"
                       name="message"

@@ -9,7 +9,7 @@ import TeamBox from "./team-box";
 
 //Import Images
 import team2 from "../../assets/images/team/team-2.png";
-import team3 from "../../assets/images/team/team-3.png";
+import team3 from "../../assets/images/team/team-3.jpeg";
 import team4 from "../../assets/images/team/team-4.png";
 
 class OurTeam extends Component {

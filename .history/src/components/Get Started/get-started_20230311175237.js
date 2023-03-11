@@ -3,9 +3,6 @@ import { Container, Row, Col } from "reactstrap";
 import emailjs from "emailjs-com";
 
 function GetStarted() {
-
-
-
   return (
     <React.Fragment>
       <section className="pt-5 pb-5 bg-custom-get-started">

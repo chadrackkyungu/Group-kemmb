@@ -892,8 +892,8 @@ ul.pattern .color6 {
   /* height: 100%; */
 }
 
-.bg-custom-get-started {
-  background-image: url("../../assets/images/services/agriculture.jpg");
+.bg-custom {
+  background-image: url("../../assets/images/logo.png");
   background-position: center;
   background-repeat: no-repeat;
 }

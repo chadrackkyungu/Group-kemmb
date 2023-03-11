@@ -5,15 +5,15 @@ class GetStarted extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="pt-5 pb-5 bg-custom">
+        <section className="pt-5 pb-5 bg-custom-get-started">
           <Container>
             <Row>
               <Col md="9" className="text-white critarea-desc mt-3 mb-3">
-                Become a part of Group Maka Investment Service today
+                Become a part of Palm tree Investment Service today
               </Col>
               <Col md="3" className="mt-3 mb-3 text-md-right">
-                <a href="#home" className="btn btn-outline-custom">
-                  Get Started
+                <a href="#contact" className="btn btn-outline-custom">
+                  Get in touch
                 </a>
               </Col>
             </Row>

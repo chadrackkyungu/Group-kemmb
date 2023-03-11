@@ -50,7 +50,7 @@ function GetInTouch() {
                       className="form-control"
                       validate={{
                         required: { value: true },
-                        name: { value: true },
+                        email: { value: true },
                       }}
                     />
                   </FormGroup>

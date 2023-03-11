@@ -34,9 +34,9 @@ class OurTeam extends Component {
             {
                 id: 3, name: "Mechack Kaba ", image: team4, post: "Chemical Engineer", title: "Manufacturer",
                 socials: [
-                    // { class: "mdi mdi-facebook", link: "#" },
-                    // { class: "mdi mdi-instagram", link: "#" },
-                    // { class: "mdi mdi-whatsapp", link: "#" },
+                    { class: "mdi mdi-facebook", link: "#" },
+                    { class: "mdi mdi-instagram", link: "#" },
+                    { class: "mdi mdi-whatsapp", link: "#" },
                 ]
             },
         ]

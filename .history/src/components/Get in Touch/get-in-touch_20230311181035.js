@@ -41,16 +41,16 @@ function GetInTouch() {
               <Row className="Get-in-touch">
                 <Col md="6">
                   <FormGroup>
-                    <Label for="name">Phone number</Label>
+                    <Label for="email">Phone number</Label>
                     <AvField
                       name="name"
-                      placeholder="Enter your name..."
-                      type="text"
-                      errorMessage="Name is required"
+                      placeholder="Phone number..."
+                      type="email"
+                      errorMessage="Enter valid Email Address"
                       className="form-control"
                       validate={{
                         required: { value: true },
-                        name: { value: true },
+                        email: { value: true },
                       }}
                     />
                   </FormGroup>
@@ -75,7 +75,7 @@ function GetInTouch() {
 
                 <Col md="6">
                   <FormGroup>
-                    <Label for="message">Message</Label>
+                    <Label for="comments">Message</Label>
                     <AvField
                       type="textarea"
                       name="message"
