@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo.png";
-import logodark from "../../assets/images/logo.png";
+import logolight from "../../assets/images/log.png";
+import logodark from "../../assets/images/log.png";
 
 class NavbarPage extends Component {
   constructor(props) {

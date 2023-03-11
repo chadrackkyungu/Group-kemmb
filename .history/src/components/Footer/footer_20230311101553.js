@@ -30,8 +30,8 @@ class Footer extends Component {
                     <Container>
                         <Row className="Group-maka">
                             <Col lg="4">
-                                <div className="logo-light ">
-                                    <img src={logolight} alt="" height="100" />
+                                <div className="">
+                                    <img src={logolight} alt="" />
                                 </div>
                             </Col>
                             {

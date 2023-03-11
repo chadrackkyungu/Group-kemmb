@@ -16,7 +16,7 @@ class OurTeam extends Component {
     state = {
         members: [
             {
-                id: 1, name: "Jean Charles B. Kashama", image: team2, post: "Executive Director", title: "CEO",
+                id: 1, name: "Jean Charles B. Kashama", image: team2, post: "Executive Director",
                 socials: [
                     { class: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=100004476735888" },
                     { class: "mdi mdi-instagram", link: "https://www.instagram.com/cbnkashama/" },
@@ -24,7 +24,7 @@ class OurTeam extends Component {
                 ]
             },
             {
-                id: 2, name: "Chadrack Kyungu ", image: team3, post: "Full-Stack Developer", title: "Project Manager",
+                id: 2, name: "Kyungu Chadrack", image: team3, post: "Full-Stack JavaScript Engineer",
                 socials: [
                     { class: "mdi mdi-facebook", link: "https://www.facebook.com/chadrack.kyungu.7" },
                     { class: "mdi mdi-instagram", link: "https://www.instagram.com/chadrack_code/" },
@@ -32,7 +32,7 @@ class OurTeam extends Component {
                 ]
             },
             {
-                id: 3, name: "Mechack Kaba ", image: team4, post: "Chemical Engineer", title: "",
+                id: 3, name: "Kaba Mechack", image: team4, post: "Chemical Engineer",
                 socials: [
                     { class: "mdi mdi-facebook", link: "#" },
                     { class: "mdi mdi-instagram", link: "#" },

@@ -4,8 +4,6 @@ import { Container, Row, Col } from "reactstrap";
 
 //Import Footer link
 import FooterLinks from "./footer-links";
-import logolight from "../../assets/images/logo.png";
-
 
 class Footer extends Component {
     state = {
@@ -30,9 +28,10 @@ class Footer extends Component {
                     <Container>
                         <Row className="Group-maka">
                             <Col lg="4">
-                                <div className="logo-light ">
-                                    <img src={logolight} alt="" height="100" />
+                                <div className="contact-us">
+                                    <img src="" alt="" />
                                 </div>
+
                             </Col>
                             {
                                 this.state.footerItems.map((item, key) =>

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo.png";
-import logodark from "../../assets/images/logo.png";
+import logolight from "../../assets/images/log.png";
+import logodark from "../../assets/images/log.png";
 
 class NavbarPage extends Component {
   constructor(props) {
@@ -50,14 +50,14 @@ class NavbarPage extends Component {
                     src={logolight}
                     alt=""
                     className="logo-light"
-                    height="50"
+                    height="150"
                   />
                 ) : (
                   <img
                     src={logodark}
                     alt=""
                     className="logo-dark"
-                    height="50"
+                    height="150"
                   />
                 )}
               </Link>

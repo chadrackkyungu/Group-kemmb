@@ -47,12 +47,17 @@ a {
 }
 
 .bg-overlay-gradient {
-  background: #396afc;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2948ff, #396afc);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2948ff, #396afc);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   top: 0;
   right: 0;
   left: 0;
@@ -225,14 +230,11 @@ span.title-border {
 }
 
 /*----------DEMO 2-----------*/
-
 .home-height-half {
   padding: 220px 0 150px 0;
   height: auto;
 }
-
 /*----------DEMO 3-----------*/
-
 .home-half {
   padding-bottom: 150px;
   padding-top: 180px;
@@ -280,7 +282,6 @@ span.title-border {
 }
 
 /*---------DEMO 6-----------*/
-
 .back-slide {
   height: 100vh;
 }
@@ -315,7 +316,6 @@ span.title-border {
 }
 
 /*--------DEMO 8-----------*/
-
 .bg-gradient {
   background: -webkit-linear-gradient(#7474bf, #348ac7);
   background: -moz-linear-gradient(#7474bf, #348ac7);
@@ -323,7 +323,6 @@ span.title-border {
   background: -o-linear-gradient(#7474bf, #348ac7);
   background: linear-gradient(#7474bf, #348ac7);
 }
-
 .navbar-light {
   background-color: #fff;
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1) !important;
@@ -337,57 +336,49 @@ span.title-border {
 
 .navbar-light .logo .logo-dark {
   display: inline-block !important;
-  width: 100% !important;
 }
 
 .navbar-light .navigation-menu > li > a {
   color: #000 !important;
 }
-
 /*-----------DEMO 9----------*/
-
 .bg-overlay-gredient {
-  background: #000046;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1cb5e0, #000046);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0px;
   opacity: 0.8;
 }
-
 /*----------DEMO 10-----------*/
-
 .bg-video {
   height: 100vh;
   background-color: #000;
 }
-
-.play-iconbar,
-.watch-video {
+.play-iconbar, .watch-video{
   display: none;
 }
-
 /*---------DEMO 11--------*/
-
 .navbar-light.small {
   top: 0px !important;
   width: 100%;
 }
-
 /*--------DEMO 12----------*/
-
 .slidero {
   position: relative;
   z-index: 1;
 }
-
 /*---------DEMO 13-----------*/
-
 .main-slider .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -401,35 +392,31 @@ span.title-border {
   border-radius: 20px;
   box-shadow: none;
 }
-
 .main-slider .flex-control-paging li a:hover {
   background: #333;
   background: rgba(255, 255, 255, 0.9);
 }
-
 .main-slider .flex-control-paging li a.flex-active {
 }
-
 .main-slider .flex-control-nav {
   bottom: -50px;
   left: 0;
   right: 0;
   width: auto;
 }
-
 /*==========================
         FEATURES
 ============================*/
-
 @media screen and (min-width: 992px) {
   .feature-container:nth-of-type(even) .feature__content {
     display: grid;
     order: 2;
   }
-  .feature-container {
+  .feature-container{
     margin-bottom: 6.5rem;
   }
 }
+
 
 .features-desc h2 {
   font-size: 28px;
@@ -440,6 +427,7 @@ span.title-border {
 .features-desc p {
   font-size: 15px;
 }
+
 
 .features-desc a {
   color: #000;
@@ -453,14 +441,13 @@ span.title-border {
   position: relative;
   top: 2px;
 }
-
-.feat img {
+.feat img{
   width: 550px;
   height: 250px;
   border-radius: 2px;
   object-fit: cover;
-}
 
+}
 .features-border {
   height: 2px;
   width: 70px;
@@ -469,17 +456,14 @@ span.title-border {
 /*==========================
         CTA 
 ============================*/
-
 .critarea-desc {
   font-size: 26px;
 }
-
 /*==========================
         SERVICES
 ============================*/
-
-.service-box {
-  display: flex;
+.service-box{
+  display:flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -487,7 +471,6 @@ span.title-border {
   border: 1px dotted #dddddd;
   border-radius: 3px;
 }
-
 /*
 .service-box {
   border: 1px dotted #dddddd;
@@ -499,14 +482,12 @@ span.title-border {
   float: left;
 }
 */
-
 .service-box .service-icon {
   font-size: 35px;
   margin-bottom: 6px;
   color: #2948ff;
 }
-
-.icon-container {
+.icon-container{
   background: #ececff;
   border-radius: 50%;
   width: 72px;
@@ -515,7 +496,6 @@ span.title-border {
   align-items: center;
   justify-content: center;
 }
-
 /*
 .service-box .service-icon {
   font-size: 40px;
@@ -528,7 +508,6 @@ span.title-border {
   margin-left: 25%;
 }
 */
-
 .service-box .service-desc h4 {
   font-size: 27px;
   font-weight: 600;
@@ -573,7 +552,6 @@ span.title-border {
 /*=========================
         TEAM
 ===========================*/
-
 .team-box {
   border-radius: 7px;
   border: 1px dashed #ddd;
@@ -606,7 +584,6 @@ span.title-border {
 /*=========================
         PRICING
 ===========================*/
-
 .plan-price h6 {
   font-weight: 600;
   font-size: 36px;
@@ -788,7 +765,6 @@ STYLE SWITHER - Demo purpose only
   font-size: 16px;
   margin: 8px 3px 12px;
 }
-
 #style-switcher {
   background: none repeat scroll 0 0 #2b2424;
   box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
@@ -799,17 +775,14 @@ STYLE SWITHER - Demo purpose only
   z-index: 9999;
   padding: 10px 5px;
 }
-
 #style-switcher div {
   padding: 5px 10px;
 }
-
 #style-switcher .bottom {
   background: none repeat scroll 0 0 #ffffff;
   color: #252525;
   padding: 0;
 }
-
 #style-switcher .bottom a.settings {
   background: none repeat scroll 0 0 #2b2424;
   box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
@@ -821,7 +794,6 @@ STYLE SWITHER - Demo purpose only
   width: 40px;
   padding: 3px;
 }
-
 #style-switcher .bottom a {
   text-decoration: none;
 }
@@ -840,12 +812,10 @@ ul.pattern {
   padding: 0;
   border-radius: 0px;
 }
-
 ul.pattern li {
   float: left;
   margin: 2px;
 }
-
 ul.pattern li a {
   cursor: pointer;
   display: block;
@@ -854,31 +824,24 @@ ul.pattern li a {
   border-radius: 0px 35px 0px 0;
   margin: 5px;
 }
-
 ul.pattern .color1 {
   background-color: #615fe6;
 }
-
 ul.pattern .color2 {
   background-color: #ff546c;
 }
-
 ul.pattern .color3 {
   background-color: #f2b31a;
 }
-
 ul.pattern .color4 {
   background-color: #31b164;
 }
-
 ul.pattern .color5 {
   background-color: #8060cf;
 }
-
 ul.pattern .color6 {
   background-color: #37b8df;
 }
-
 @media only screen and (max-width: 479px) {
   #style-switcher {
     display: none;

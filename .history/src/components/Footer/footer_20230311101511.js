@@ -30,9 +30,10 @@ class Footer extends Component {
                     <Container>
                         <Row className="Group-maka">
                             <Col lg="4">
-                                <div className="logo-light ">
-                                    <img src={logolight} alt="" height="100" />
+                                <div className="contact-us">
+                                    <img src={logolight} alt="" />
                                 </div>
+
                             </Col>
                             {
                                 this.state.footerItems.map((item, key) =>

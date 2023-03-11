@@ -32,7 +32,7 @@ class OurTeam extends Component {
                 ]
             },
             {
-                id: 3, name: "Mechack Kaba ", image: team4, post: "Chemical Engineer", title: "",
+                id: 3, name: "Kaba Mechack", image: team4, post: "Chemical Engineer", title: "",
                 socials: [
                     { class: "mdi mdi-facebook", link: "#" },
                     { class: "mdi mdi-instagram", link: "#" },
