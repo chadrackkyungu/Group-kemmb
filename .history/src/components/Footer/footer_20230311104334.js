@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
+
+//Import Footer link
 import FooterLinks from "./footer-links";
 import logolight from "../../assets/images/logo.png";
+
 
 class Footer extends Component {
     state = {

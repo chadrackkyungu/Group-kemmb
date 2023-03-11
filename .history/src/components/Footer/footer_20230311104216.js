@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
+
+//Import Footer link
 import FooterLinks from "./footer-links";
 import logolight from "../../assets/images/logo.png";
+
 
 class Footer extends Component {
     state = {
@@ -11,7 +14,7 @@ class Footer extends Component {
                 title: "Menus",
                 links: [
                     { linkTitle: "Home", link: "#home" },
-                    { linkTitle: "About", link: "#about" },
+                    { linkTitle: "Features", link: "#" },
                     { linkTitle: "Services", link: "#service" },
                     { linkTitle: "Team", link: "#team" },
                     { linkTitle: "Contact", link: "#contact" },
@@ -55,10 +58,17 @@ class Footer extends Component {
                                     <p>Palm Tree Investment services (pty) Ltd Reg No 2023/517568/07</p>
                                     <p>Address: 31 Becker Street Yeoville, Johannesburg, Gauteng, south Africa</p>
                                 </div>
+                                {/* <ul className="footer-icons list-inline mt-4">
+                                    <li className="list-inline-item"><Link to="#" className=""><i className="mdi mdi-facebook"></i></Link></li>
+                                    <li className="list-inline-item"><Link to="#" className=""><i className="mdi mdi-twitter"></i></Link></li>
+                                    <li className="list-inline-item"><Link to="#" className=""><i className="mdi mdi-instagram"></i></Link></li>
+                                </ul> */}
+
                             </Col>
                         </Row>
                     </Container>
                 </section>
+                {/* Render footer links */}
                 <FooterLinks />
             </React.Fragment>
         );
