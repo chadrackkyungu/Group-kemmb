@@ -16,7 +16,7 @@ class OurTeam extends Component {
     state = {
         members: [
             {
-                id: 1, name: "Jean Charles B. Kashama", image: team2, post: "& Founder", title: "CEO",
+                id: 1, name: "Jean Charles B. Kashama", image: team2, post: "Founder", title: "CEO",
                 socials: [
                     { class: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=100004476735888" },
                     { class: "mdi mdi-instagram", link: "https://www.instagram.com/cbnkashama/" },

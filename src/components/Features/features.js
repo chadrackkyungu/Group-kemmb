@@ -32,7 +32,7 @@ class Features extends Component {
                 <FeatureBox
                   class="text-lg-left"
                   title="Introduction to Palm tree Investment Services"
-                  desc="PT Investment services is a company that bridges the goals between investors in the world at the DRC 
+                  desc="PT Investment services is a company that bridges the goals between Investors in the world to the Drcongo 
                   with focus in 
                   Agriculture , construction (mining) , IT infrastructure, Water and Sanitation We supply services as Chemical manufacture,Cleaning and waste ,Casting (actors and extras),IT Developer,Public transportation , Securities Services
                   "
@@ -58,7 +58,7 @@ class Features extends Component {
                 <FeatureBox
                   class="text-center text-lg-left "
                   title="Our Vision"
-                  desc="Our goal is to contribute to economic growth in Africa and particularly in the Democratic Republic of the 
+                  desc="Our goal is to contribute to economic growth in Africa and particularly in the Democratic Republic of 
                   Congo and the prosperity of its people. We will achieve this by increasing investors opportunities and 
                   employment strengthening rural development and alleviating poverty"
                   link="#"

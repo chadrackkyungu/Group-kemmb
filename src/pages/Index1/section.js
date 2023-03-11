@@ -33,7 +33,7 @@ class Section extends Component {
                                     <Col lg="10" className="text-center">
                                         <h6 className="home-title text-white">The only way to do great work is to love what you do</h6>
                                         <p className="pt-4 home-sub-title text-white mx-auto">
-                                            Palm tree investment is an open platform company that provide different types of services in order to
+                                            Palm tree investment services is an open platform company that provide different types of services in order to
                                             contribute to the investment of a better tomorrow
                                         </p>
                                         <div className="watch-video pt-4">

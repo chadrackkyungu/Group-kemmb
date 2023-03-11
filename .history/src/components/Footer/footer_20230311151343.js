@@ -26,7 +26,7 @@ class Footer extends Component {
                 <section className="section bg-light">
                     <Container>
                         <Row className="Group-maka">
-                            <Col lg="4">
+                            <Col lg="6">
                                 <div className="logo-light ">
                                     <img src={logolight} alt="" height="100" />
                                 </div>
@@ -46,7 +46,7 @@ class Footer extends Component {
                                 )
                             } */}
 
-                            <Col lg="8">
+                            <Col lg="6">
                                 <p className="text-uppercase footer-title">Contact Us</p>
                                 <div className="contact-us">
                                     <p>info@palmtree.com</p>
