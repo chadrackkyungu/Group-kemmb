@@ -22,6 +22,9 @@ import chemical from "../../assets/images/services/chemical.jpg";
 import construction from "../../assets/images/services/construction.jpg";
 import it from "../../assets/images/services/it.jpg";
 import transportation from "../../assets/images/services/transportation.jpg";
+import water from "../../assets/images/services/water.jpg";
+import casting from "../../assets/images/services/casting.jpg";
+import security from "../../assets/images/services/security.jpg";
 
 class Services extends Component {
 
@@ -38,11 +41,11 @@ class Services extends Component {
 
         ],
         services2: [
-            { title: "Securities & Cleaning", icon: SiSpringsecurity, description: "As companies primarily engaged in providing security guard, patrol services, riot guard  body guard, Many of them will even provide advanced special operation services if the client  demands it.  Cleaning:clean, Disinfects and maintain the premises of private households or commercial buildings  and public areas. " },
-            { title: "Casting", icon: SiWikimediacommons, description: "We provide constant liaison between the client and the actors or extras, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
+            { title: "Securities & Cleaning", icon: security, description: "As companies primarily engaged in providing security guard, patrol services, riot guard  body guard, Many of them will even provide advanced special operation services if the client  demands it.  Cleaning:clean, Disinfects and maintain the premises of private households or commercial buildings  and public areas. " },
+            { title: "Casting", icon: casting, description: "We provide constant liaison between the client and the actors or extras, finding suitable people and ensuring that contracts are issued, fees are paid and all health & safety requirements met." },
         ],
         services3: [
-            { title: " Water and sanitation", icon: GiWaterTank, description: "Palm Tree Investment Services is committed to addressing the ongoing challenges associated with the lack of clean water, sanitation and good hygiene." },
+            { title: " Water and sanitation", icon: water, description: "Palm Tree Investment Services is committed to addressing the ongoing challenges associated with the lack of clean water, sanitation and good hygiene." },
             { title: "Construction (Mining)", icon: construction, description: "Palm Tree Investment services is entitled to facilitate the extraction of metals and minerals through investment project in the Democratic Republic of the Congo.The social and labor plan also includes the infrastructure development and better lives." },
         ],
 
