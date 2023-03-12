@@ -84,7 +84,7 @@ class Features extends Component {
             </Row>
             <Row className="feature-container pb-5 mt-5 vertical-content">
               <Col lg="6" className="mt-2">
-                <div className="feat mb-5 mb-lg-0 " data-aos="fade-right">
+                <div className="feat mb-5 mb-lg-0 " data-aos="fade-left">
                   <img
                     src={img4}
                     alt=""
@@ -92,7 +92,7 @@ class Features extends Component {
                   />
                 </div>
               </Col>
-              <Col lg="6" className="feature__content mt-2" data-aos="fade-left">
+              <Col lg="6" className="feature__content mt-2" data-aos="fade-right">
                 <FeatureBox
                   class="text-center text-lg-left"
                   title="Our Value"

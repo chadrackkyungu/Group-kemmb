@@ -56,16 +56,16 @@ class Services extends Component {
                 <section id="service" className="section">
                     <Container>
                         <SectionTitle title1="Our" title2="Services" />
-                        <Row className="pt-4 mt-4" >
+                        <Row className="pt-4 mt-4" data-aos="fade-down">
                             <ServiceBox services={this.state.services} />
                         </Row>
-                        <Row >
+                        <Row data-aos="fade-down">
                             <ServiceBox services={this.state.services1} />
                         </Row>
                         <Row>
                             <ServiceBox services={this.state.services2} />
                         </Row>
-                        <Row >
+                        <Row data-aos="fade-down">
                             <ServiceBox services={this.state.services3} />
                         </Row>
                     </Container>

@@ -31,8 +31,8 @@ class Section extends Component {
                             <Container>
                                 <Row className="row justify-content-center">
                                     <Col lg="10" className="text-center">
-                                        <h6 className="home-title text-white" data-aos="fade-down">The only way to do great work is to love what you do</h6>
-                                        <p className="pt-4 home-sub-title text-white mx-auto" data-aos="fade-up">
+                                        <h6 className="home-title text-white" data-aos="fade-up">The only way to do great work is to love what you do</h6>
+                                        <p className="pt-4 home-sub-title text-white mx-auto" data-aos="fade-down">
                                             Palm tree investment services is an open platform company that provide different types of services in order to
                                             contribute to the investment of a better tomorrow
                                         </p>

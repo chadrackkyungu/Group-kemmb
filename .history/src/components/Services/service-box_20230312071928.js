@@ -9,7 +9,7 @@ class ServiceBox extends Component {
                 {
                     this.props.services.map((service, key) =>
                         <Col lg="6" className="mt-3 service-card" key={key}>
-                            <Row className="clearfix p-4" data-aos="fade-up">
+                            <Row className="clearfix p-4" data-aos="fade-down">
                                 <Col lg="6" className="service-img">
                                     <img src={service.icon} alt="" />
                                 </Col>
