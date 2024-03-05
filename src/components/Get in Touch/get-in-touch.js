@@ -2,29 +2,31 @@ import React, { useRef } from "react";
 import { Container, Row, Col, FormGroup, Label } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
-import "./Get in touch.css"
-import emailjs from '@emailjs/browser';
+import "./Get in touch.css";
+import emailjs from "@emailjs/browser";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
 
 function GetInTouch() {
-
   const form = useRef();
 
   const handleValidSubmit = (e, values) => {
     e.preventDefault();
 
     // emailjs.sendForm('gmail', 'template_oixp1mv', form.current, 'YOUR_PUBLIC_KEY')
-    emailjs.sendForm('gmail', 'template_oixp1mv', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-    e.target.reset()
-
-  }
+    emailjs
+      .sendForm("gmail", "template_oixp1mv", form.current, "YOUR_PUBLIC_KEY")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
 
   return (
     <React.Fragment>
@@ -36,15 +38,17 @@ function GetInTouch() {
               name="contact-form"
               id="contact-form"
               ref={form}
-              onValidSubmit={(e, v) => { handleValidSubmit(e, v) }}>
-
+              onValidSubmit={(e, v) => {
+                handleValidSubmit(e, v);
+              }}
+            >
               <Row className="Get-in-touch">
                 <Col md="6">
                   <FormGroup>
                     <Label for="name">Phone number</Label>
                     <AvField
                       name="name"
-                      placeholder="Enter your name..."
+                      placeholder="Enter your number"
                       type="text"
                       errorMessage="Name is required"
                       className="form-control"
@@ -90,10 +94,9 @@ function GetInTouch() {
                 </Col>
               </Row>
 
-
               <Row>
                 <div className="btn-center">
-                  <Col sm="12" >
+                  <Col sm="12">
                     <input
                       type="submit"
                       id="submit"
@@ -112,6 +115,5 @@ function GetInTouch() {
     </React.Fragment>
   );
 }
-
 
 export default GetInTouch;
